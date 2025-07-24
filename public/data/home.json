@@ -1,0 +1,17 @@
+{
+    "hero": {
+        "title": "Welcome to My Website",
+        "subtitle": "Your trusted partner in success and lifer.",
+        "ctaText": "Get Started"
+    },
+    "services": [
+        {
+            "title": "Web Development",
+            "description": "We build fast and scalable web apps."
+        },
+        {
+            "title": "SEO Optimization",
+            "description": "Improve your search engine ranking."
+        }
+    ]
+}

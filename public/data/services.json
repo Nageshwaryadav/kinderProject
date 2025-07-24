@@ -1,0 +1,16 @@
+{
+    "services": [
+        {
+            "title": "Web Development",
+            "description": "We build fast, scalable, and responsive web apps."
+        },
+        {
+            "title": "Mobile App Development",
+            "description": "Native and cross-platform app development services."
+        },
+        {
+            "title": "SEO & Marketing",
+            "description": "Boost your online presence with expert strategies."
+        }
+    ]
+}

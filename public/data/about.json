@@ -1,0 +1,15 @@
+{
+    "about":
+    {"title": "About Us",
+    "description": "KinderApp is a platform dedicated to providing resources and support for parents and caregivers of young children. Our mission is to empower families with the knowledge and tools they need to nurture healthy, happy, and well-rounded children.",
+    "mission": "To create a supportive community that fosters the growth and development of children through accessible information, expert advice, and shared experiences.",
+    "vision": "A world where every child has the opportunity to thrive in a nurturing environment, supported by informed and engaged caregivers.",
+    "values": [
+        "Empathy",
+        "Inclusivity",
+        "Integrity",
+        "Collaboration",
+        "Innovation"
+    ]
+}
+}

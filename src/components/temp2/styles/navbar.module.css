@@ -1,0 +1,27 @@
+.navbar {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    background: linear-gradient(to right, #fe5900, #fefe4f);
+    padding: 12px 24px;
+    gap: 16px;
+    margin: 0;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.navbar a {
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+    border: 2px solid white;
+    border-radius: 6px;
+    padding: 6px 14px;
+    transition: all 0.3s ease;
+    background-color: white;
+}
+
+.navbar a:hover {
+    background-color: #fefefe;
+    color: #0070f3;
+    border-color: #0070f3;
+}

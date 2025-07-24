@@ -1,0 +1,59 @@
+
+.description{
+    color: white;
+    font-size: 20px;
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+   background: linear-gradient(to right, #4facfe, #00feae)
+    
+}
+
+
+.mission{
+    background-color:white;
+    color:black;
+    padding:15px;
+    height:200px;
+}
+.missioncom{
+    background-color:lightgray;
+    color:black;
+    padding:15px;
+    height:100px;
+    margin-top:10px;
+    text-align:center;
+}
+.vision{
+    background-color:lightgray;
+    color:black;
+    padding:15px;
+    height:200px;
+}
+.grid{
+    display:flex;
+    gap: 10px;
+    padding: 10px;
+    margin-top: 10px;
+    
+}
+
+.card{
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 20px;
+    margin: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    height:100px;
+    width:100px;
+    justify-content:center;
+    
+    
+}
+.card:hover{
+    background-color:#7d737a;
+    transform:translateY(-5px);
+    transition: transform 0.2s ease;
+    color:white;
+}

@@ -1,0 +1,30 @@
+.navbar {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+ background: linear-gradient(to right, #4a4b4a, #fdfbfd);
+  backdrop-filter: blur(10px);
+
+  padding: 12px 24px;
+  gap: 16px;
+  margin: 0;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  height: 70px;
+}
+
+.navLink {
+  text-decoration: none;
+  color: rgb(8, 3, 9);
+  font-weight: 500;
+  border: 2px solid rgb(5, 126, 240);
+  border-radius: 6px;
+  padding: 6px 14px;
+  transition: all 0.3s ease;
+  background-color: transparent;
+}
+
+.navLink:hover {
+  background-color: white;
+  color: #00f3ef;
+  border-color: #0070f3;
+}
