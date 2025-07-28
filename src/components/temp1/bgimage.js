@@ -4,6 +4,7 @@ export default function FullscreenImageBackground() {
   return (
     <div
       style={{
+       
         display: 'flex',
         justifyContent: 'center',
         alignItems: 'center',

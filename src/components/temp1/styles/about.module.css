@@ -1,3 +1,32 @@
+.aboutbg{
+    background:radial-gradient(circle, #b75fff, #7bb8fe);
+    justify-content:center;
+    align-items: center;
+    animation: appear 2s ease-in-out;
+    animation-fill-mode: both;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+ @keyframes appear{
+        from{
+            opacity:0.5;
+        }
+        to{
+            opacity:1;
+        }
+    }
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    margin: 0 auto;
+    max-width: 1200px;
+}
+
 
 .description{
     color: white;
@@ -5,27 +34,43 @@
     padding: 10px;
     margin: 10px;
     text-align: center;
-   background: linear-gradient(to right, #4facfe, #00feae)
-    
+    background: linear-gradient(to right, #4facfe, #00feae);
+    border-radius: 10px;
+    opacity:0.8;
+}
+.description:hover{
+    opacity:1;
+    transition: all 0.3s ease;
+    transform: scale(1.05);
 }
 
 
 .mission{
-    background-color:white;
     color:black;
     padding:15px;
-    height:200px;
+    font-size: 1.5rem;
+    font-weight: bold;
 }
 .missioncom{
     background-color:lightgray;
     color:black;
     padding:15px;
-    height:100px;
+    max-width:1200px;
     margin-top:10px;
-    text-align:center;
+    font-weight:1.2rem;
+    font-size: 1.2rem;
+    text-align: center;
+    border-radius: 10px;
+    opacity:0.8;
+    
+}
+.missioncom:hover{
+    scale:1.05;
+    transition: all 0.3s ease;
+
+
 }
 .vision{
-    background-color:lightgray;
     color:black;
     padding:15px;
     height:200px;
@@ -35,8 +80,8 @@
     gap: 10px;
     padding: 10px;
     margin-top: 10px;
-    
 }
+
 
 .card{
     background-color: #f0f0f0;
@@ -45,14 +90,14 @@
     padding: 20px;
     margin: 10px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    height:100px;
-    width:100px;
-    justify-content:center;
-    
+    width:10vw;
+    height:10vh;
+    text-align:center;   
     
 }
 .card:hover{
-    background-color:#7d737a;
+    background-color:#817a7ebc;
+    box-shadow: 8px 8px 8px rgba(0, 0, 0, 0.7);
     transform:translateY(-5px);
     transition: transform 0.2s ease;
     color:white;
